@@ -27,7 +27,7 @@ ChartJS.register(
     Title
 );
 
-const API = "https://localhost:7130/api/Dataset";
+const API = "https://smart-analytics-o77v.onrender.com/api";
 
 export default function ChartBuilder() {
     const [datasets, setDatasets] = useState([]);

@@ -1,7 +1,7 @@
 ﻿import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "https://localhost:7130/api/Dataset";
+const API = "https://smart-analytics-o77v.onrender.com/api";
 
 export default function Insights() {
     const [datasets, setDatasets] = useState([]);
