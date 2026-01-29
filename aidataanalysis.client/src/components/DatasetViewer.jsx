@@ -2,7 +2,7 @@
 import axios from "axios";
 import Papa from "papaparse";
 
-const API = "https://smart-analytics-o77v.onrender.com/api";
+const API = "https://smart-analytics-o77v.onrender.com/api/Dataset";
 
 export default function DatasetViewer() {
     const [datasets, setDatasets] = useState([]);

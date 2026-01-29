@@ -12,7 +12,7 @@ import {
     Cell
 } from "recharts";
 
-const API = "https://smart-analytics-o77v.onrender.com/api";
+const API = "https://smart-analytics-o77v.onrender.com/api/Dataset";
 
 export default function Dashboard() {
     const [datasets, setDatasets] = useState([]);

@@ -1,7 +1,7 @@
 ﻿import { useState } from "react";
 import axios from "axios";
 
-const API_URL = "https://smart-analytics-o77v.onrender.com/api";
+const API = "https://smart-analytics-o77v.onrender.com/api/upload";
 
 export default function FileUpload() {
     const [file, setFile] = useState(null);
