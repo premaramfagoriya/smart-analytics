@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="aidataanalysis.client/aidataanalysis.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="AiDataAnalysis.Server/AiDataAnalysis.Server.csproj" />
+</Solution>
